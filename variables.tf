@@ -7,11 +7,10 @@ variable "region" {
   description = "AWS region to create resources"
 }
 
-# variable "instance_type" {
-#   description = "The instance type"
-#   type        = string
-#   default     = "m5.2xlarge"
-# }
+variable "instance_type" {
+  description = "The instance type"
+  type        = string
+}
 
 variable "private_key_path" {
   description = "Private key"
