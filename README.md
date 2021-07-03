@@ -1,10 +1,10 @@
-# AWS EKS Practice
+# Jenkins running on EC2 Instance
 
 ## Introduction
 
-Jenkins
+Installed jenkins running on EC2 instance
 
-## Run command after provision EKS
+## The following softwares are running on the ec2 instance
 1. Installed Jenkins 
 2. Install Docker 
 3. Install nagios
