@@ -1,3 +1,3 @@
-output "output_name" {
-  value = "some resource"
+output "instance-dns" {
+  value = aws_instance.jenkins_instance.public_dns
 }
