@@ -23,10 +23,6 @@ resource "aws_instance" "jenkins_instance" {
     private_key = file(var.private_key_path)
   }
 
-  # provisioner "local-exec" {
-  #   command = "sudo cat /var/lib/jenkins/secrets/initialAdminPassword"
-  # }
-
   user_data = file("scripts/bootstrap.sh")
 
   tags = {

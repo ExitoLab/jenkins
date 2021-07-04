@@ -19,5 +19,5 @@ data "aws_ami" "amazon_linux" {
     values = ["ebs"]
   }
 
-  owners = ["amazon"] # Canonical
+  owners = ["amazon"]
 }
