@@ -11,3 +11,7 @@ Installed jenkins running on EC2 instance
 ## The following softwares are running on the ec2 instance
 1. Installed Jenkins 
 2. Install Docker
+
+
+### To get jenkins password
+1. Check this file ` sudo cat /var/lib/jenkins/secrets/initialAdminPassword ` 
