@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Installed jenkins running on EC2 instance
+Installed jenkins running on EC2 instance using terraform (IaC).
 
 ## The following softwares are running on the ec2 instance
 1. Add your public key in vars/values.tfvars on line 9
